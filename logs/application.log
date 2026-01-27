@@ -1,0 +1,167 @@
+2026-01-22 13:18:48.127  INFO 584881 --- [main] c.e.urlencrypt.UrlEncryptApplication     : Starting UrlEncryptApplication using Java 21.0.9 on mostafasallam-G5-5590 with PID 584881 (/home/mostafasallam/Desktop/urlEncrypt/target/classes started by mostafasallam in /home/mostafasallam/Desktop/urlEncrypt)
+2026-01-22 13:18:48.132  INFO 584881 --- [main] c.e.urlencrypt.UrlEncryptApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-01-22 13:18:48.817  INFO 584881 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9900 (http)
+2026-01-22 13:18:48.824  INFO 584881 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-22 13:18:48.825  INFO 584881 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-22 13:18:48.885  INFO 584881 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-22 13:18:48.885  INFO 584881 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 721 ms
+2026-01-22 13:18:49.226  INFO 584881 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9900 (http) with context path ''
+2026-01-22 13:18:49.231  INFO 584881 --- [main] c.e.urlencrypt.UrlEncryptApplication     : Started UrlEncryptApplication in 1.431 seconds (JVM running for 1.672)
+2026-01-22 13:19:12.428  INFO 584881 --- [http-nio-9900-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-22 13:19:12.429  INFO 584881 --- [http-nio-9900-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-22 13:19:12.430  INFO 584881 --- [http-nio-9900-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-22 13:19:12.452  INFO 584881 --- [http-nio-9900-exec-2] com.example.urlencrypt.ImageController   : Received request for Document ID: 300
+2026-01-22 13:19:12.453  INFO 584881 --- [http-nio-9900-exec-2] com.example.urlencrypt.ImageController   : Attempting to fetch from upstream URL: https://headq-lfwb-t.awb.local/LaserficheLOS/api/Values/GetDocument
+2026-01-22 13:19:12.595 ERROR 584881 --- [http-nio-9900-exec-2] com.example.urlencrypt.ImageController   : Upstream connection failed: headq-lfwb-t.awb.local: Temporary failure in name resolution. Falling back to mock data.
+2026-01-22 13:19:12.596  INFO 584881 --- [http-nio-9900-exec-2] com.example.urlencrypt.ImageController   : Loading mock response from classpath: mock-response.json
+2026-01-22 13:19:12.626  INFO 584881 --- [http-nio-9900-exec-2] com.example.urlencrypt.ImageController   : Successfully loaded mock document. Size: 218482 bytes
+2026-01-22 15:46:46.642  INFO 695992 --- [main] c.e.urlencrypt.UrlEncryptApplication     : Starting UrlEncryptApplication using Java 21.0.9 on mostafasallam-G5-5590 with PID 695992 (/home/mostafasallam/Desktop/urlEncrypt/target/classes started by mostafasallam in /home/mostafasallam/Desktop/urlEncrypt)
+2026-01-22 15:46:46.643  INFO 695992 --- [main] c.e.urlencrypt.UrlEncryptApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-01-22 15:46:47.136  INFO 695992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9900 (http)
+2026-01-22 15:46:47.143  INFO 695992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-22 15:46:47.143  INFO 695992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-22 15:46:47.197  INFO 695992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-22 15:46:47.197  INFO 695992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 522 ms
+2026-01-22 15:46:47.472  INFO 695992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9900 (http) with context path ''
+2026-01-22 15:46:47.477  INFO 695992 --- [main] c.e.urlencrypt.UrlEncryptApplication     : Started UrlEncryptApplication in 1.058 seconds (JVM running for 1.24)
+2026-01-22 15:46:54.716  INFO 695992 --- [http-nio-9900-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-22 15:46:54.716  INFO 695992 --- [http-nio-9900-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-22 15:46:54.717  INFO 695992 --- [http-nio-9900-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-01-22 15:46:54.736  INFO 695992 --- [http-nio-9900-exec-1] com.example.urlencrypt.ImageController   : Received request for Document ID: 300
+2026-01-22 15:46:54.737  INFO 695992 --- [http-nio-9900-exec-1] com.example.urlencrypt.ImageController   : Attempting to fetch from upstream URL: https://headq-lfwb-t.awb.local/LaserficheLOS/api/Values/GetDocument
+2026-01-22 15:46:54.902 ERROR 695992 --- [http-nio-9900-exec-1] com.example.urlencrypt.ImageController   : Upstream connection failed: headq-lfwb-t.awb.local: Temporary failure in name resolution. Falling back to mock data.
+2026-01-22 15:46:54.902  INFO 695992 --- [http-nio-9900-exec-1] com.example.urlencrypt.ImageController   : Loading mock response from classpath: mock-response.json
+2026-01-22 15:46:55.157  WARN 695992 --- [http-nio-9900-exec-1] o.a.p.p.font.FileSystemFontProvider      : 2037 new fonts found, font cache will be re-built
+2026-01-22 15:46:55.157  WARN 695992 --- [http-nio-9900-exec-1] o.a.p.p.font.FileSystemFontProvider      : Building on-disk font cache, this may take a while
+2026-01-22 15:47:08.910  WARN 695992 --- [http-nio-9900-exec-1] o.a.p.p.font.FileSystemFontProvider      : Finished building on-disk font cache, found 2063 fonts
+2026-01-22 15:47:08.938  WARN 695992 --- [http-nio-9900-exec-1] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Symbol
+2026-01-22 15:47:08.939  WARN 695992 --- [http-nio-9900-exec-1] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font ZapfDingbats
+2026-01-22 15:47:09.563  INFO 695992 --- [http-nio-9900-exec-1] com.example.urlencrypt.ImageController   : Successfully converted mock PDF to Image. Size: 825267 bytes
+2026-01-22 16:04:24.231  INFO 695992 --- [http-nio-9900-exec-5] com.example.urlencrypt.ImageController   : Received request for Document ID: 300
+2026-01-22 16:04:24.231  INFO 695992 --- [http-nio-9900-exec-5] com.example.urlencrypt.ImageController   : Attempting to fetch from upstream URL: https://headq-lfwb-t.awb.local/LaserficheLOS/api/Values/GetDocument
+2026-01-22 16:04:24.365 ERROR 695992 --- [http-nio-9900-exec-5] com.example.urlencrypt.ImageController   : Upstream connection failed: headq-lfwb-t.awb.local: Temporary failure in name resolution. Falling back to mock data.
+2026-01-22 16:04:24.365  INFO 695992 --- [http-nio-9900-exec-5] com.example.urlencrypt.ImageController   : Loading mock response from classpath: mock-response.json
+2026-01-22 16:04:24.835  INFO 695992 --- [http-nio-9900-exec-5] com.example.urlencrypt.ImageController   : Successfully converted mock PDF to Image. Size: 825267 bytes
+2026-01-22 16:06:49.170  INFO 711319 --- [main] c.e.urlencrypt.UrlEncryptApplication     : Starting UrlEncryptApplication using Java 21.0.9 on mostafasallam-G5-5590 with PID 711319 (/home/mostafasallam/Desktop/urlEncrypt/target/classes started by mostafasallam in /home/mostafasallam/Desktop/urlEncrypt)
+2026-01-22 16:06:49.171  INFO 711319 --- [main] c.e.urlencrypt.UrlEncryptApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-01-22 16:06:49.744  INFO 711319 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9900 (http)
+2026-01-22 16:06:49.751  INFO 711319 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-22 16:06:49.751  INFO 711319 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-22 16:06:49.809  INFO 711319 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-22 16:06:49.809  INFO 711319 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 606 ms
+2026-01-22 16:06:50.114  INFO 711319 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9900 (http) with context path ''
+2026-01-22 16:06:50.123  INFO 711319 --- [main] c.e.urlencrypt.UrlEncryptApplication     : Started UrlEncryptApplication in 1.201 seconds (JVM running for 1.389)
+2026-01-22 16:06:52.552  INFO 711319 --- [http-nio-9900-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-22 16:06:52.552  INFO 711319 --- [http-nio-9900-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-22 16:06:52.553  INFO 711319 --- [http-nio-9900-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-22 16:06:52.571  INFO 711319 --- [http-nio-9900-exec-1] com.example.urlencrypt.ImageController   : Received request for Document ID: 300
+2026-01-22 16:06:52.572  INFO 711319 --- [http-nio-9900-exec-1] com.example.urlencrypt.ImageController   : Attempting to fetch from upstream URL: https://headq-lfwb-t.awb.local/LaserficheLOS/api/Values/GetDocument
+2026-01-22 16:06:52.921 ERROR 711319 --- [http-nio-9900-exec-1] com.example.urlencrypt.ImageController   : Upstream connection failed: headq-lfwb-t.awb.local: Temporary failure in name resolution. Falling back to mock data.
+2026-01-22 16:06:52.922  INFO 711319 --- [http-nio-9900-exec-1] com.example.urlencrypt.ImageController   : Loading mock response from classpath: mock-response.json
+2026-01-22 16:06:53.213  WARN 711319 --- [http-nio-9900-exec-1] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Symbol
+2026-01-22 16:06:53.214  WARN 711319 --- [http-nio-9900-exec-1] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font ZapfDingbats
+2026-01-22 16:06:54.334  INFO 711319 --- [http-nio-9900-exec-1] com.example.urlencrypt.ImageController   : Successfully converted mock PDF to Image. Size: 1649369 bytes
+2026-01-22 16:23:34.521  INFO 725031 --- [main] com.nbk.UrlEncryptApplication            : Starting UrlEncryptApplication using Java 21.0.9 on mostafasallam-G5-5590 with PID 725031 (/home/mostafasallam/Desktop/urlEncrypt/target/classes started by mostafasallam in /home/mostafasallam/Desktop/urlEncrypt)
+2026-01-22 16:23:34.523  INFO 725031 --- [main] com.nbk.UrlEncryptApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-01-22 16:23:35.086  INFO 725031 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9900 (http)
+2026-01-22 16:23:35.092  INFO 725031 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-22 16:23:35.093  INFO 725031 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-22 16:23:35.146  INFO 725031 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-22 16:23:35.146  INFO 725031 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 590 ms
+2026-01-22 16:23:35.443  INFO 725031 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9900 (http) with context path ''
+2026-01-22 16:23:35.448  INFO 725031 --- [main] com.nbk.UrlEncryptApplication            : Started UrlEncryptApplication in 1.183 seconds (JVM running for 1.374)
+2026-01-22 17:16:26.240  INFO 725031 --- [http-nio-9900-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-22 17:16:26.240  INFO 725031 --- [http-nio-9900-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-22 17:16:26.241  INFO 725031 --- [http-nio-9900-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-22 17:16:26.259  INFO 725031 --- [http-nio-9900-exec-2] com.nbk.ImageController                  : Received request for Document ID: 300
+2026-01-22 17:16:26.260  INFO 725031 --- [http-nio-9900-exec-2] com.nbk.ImageController                  : Attempting to fetch from upstream URL: https://headq-lfwb-t.awb.local/LaserficheLOS/api/Values/GetDocument
+2026-01-22 17:16:26.484 ERROR 725031 --- [http-nio-9900-exec-2] com.nbk.ImageController                  : Upstream connection failed: headq-lfwb-t.awb.local: Temporary failure in name resolution. Falling back to mock data.
+2026-01-22 17:16:26.484  INFO 725031 --- [http-nio-9900-exec-2] com.nbk.ImageController                  : Loading mock response from classpath: mock-response.json
+2026-01-22 17:16:26.765  WARN 725031 --- [http-nio-9900-exec-2] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Symbol
+2026-01-22 17:16:26.767  WARN 725031 --- [http-nio-9900-exec-2] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font ZapfDingbats
+2026-01-22 17:16:27.817  INFO 725031 --- [http-nio-9900-exec-2] com.nbk.ImageController                  : Successfully converted mock PDF to Image. Size: 1649369 bytes
+2026-01-22 17:16:53.496  INFO 766299 --- [main] com.nbk.UrlEncryptApplication            : Starting UrlEncryptApplication using Java 21.0.9 on mostafasallam-G5-5590 with PID 766299 (/home/mostafasallam/Desktop/urlEncrypt/target/classes started by mostafasallam in /home/mostafasallam/Desktop/urlEncrypt)
+2026-01-22 17:16:53.498  INFO 766299 --- [main] com.nbk.UrlEncryptApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-01-22 17:16:54.043  INFO 766299 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9900 (http)
+2026-01-22 17:16:54.050  INFO 766299 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-22 17:16:54.051  INFO 766299 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-01-22 17:16:54.132  INFO 766299 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-22 17:16:54.133  INFO 766299 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 602 ms
+2026-01-22 17:16:54.468  INFO 766299 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9900 (http) with context path ''
+2026-01-22 17:16:54.473  INFO 766299 --- [main] com.nbk.UrlEncryptApplication            : Started UrlEncryptApplication in 1.23 seconds (JVM running for 1.444)
+2026-01-22 17:17:06.920  INFO 766299 --- [http-nio-9900-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-22 17:17:06.920  INFO 766299 --- [http-nio-9900-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-22 17:17:06.921  INFO 766299 --- [http-nio-9900-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-22 17:17:06.942  INFO 766299 --- [http-nio-9900-exec-1] com.nbk.ImageController                  : Received request for Document ID: 300
+2026-01-22 17:17:06.943  INFO 766299 --- [http-nio-9900-exec-1] com.nbk.ImageController                  : Attempting to fetch from upstream URL: https://headq-lfwb-t.awb.local/LaserficheLOS/api/Values/GetDocument
+2026-01-22 17:17:07.054 ERROR 766299 --- [http-nio-9900-exec-1] com.nbk.ImageController                  : Error processing request
+
+java.net.UnknownHostException: headq-lfwb-t.awb.local: Temporary failure in name resolution
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[na:na]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108) ~[httpclient-4.5.14.jar:4.5.14]
+	at com.nbk.ImageController.getImage(ImageController.java:95) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.31.jar:5.3.31]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.31.jar:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529) ~[tomcat-embed-core-9.0.83.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.31.jar:5.3.31]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.83.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.31.jar:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.31.jar:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.31.jar:5.3.31]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.31.jar:5.3.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.83.jar:9.0.83]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+

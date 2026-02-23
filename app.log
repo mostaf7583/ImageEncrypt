@@ -1,0 +1,53 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------------< [0;36mcom.nbk:urlEncrypt[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding urlEncrypt 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:2.7.18:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36murlEncrypt[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36murlEncrypt[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 5 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36murlEncrypt[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 8 source files to /home/mostafasallam/Desktop/urlEncrypt/target/classes
+[[1;34mINFO[m] /home/mostafasallam/Desktop/urlEncrypt/src/main/java/com/nbk/MockLaserficheController.java: /home/mostafasallam/Desktop/urlEncrypt/src/main/java/com/nbk/MockLaserficheController.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /home/mostafasallam/Desktop/urlEncrypt/src/main/java/com/nbk/MockLaserficheController.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /home/mostafasallam/Desktop/urlEncrypt/src/main/java/com/nbk/ImageController.java:[88,16] variable clientIp is already defined in method getImage(java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[[1;31mERROR[m] /home/mostafasallam/Desktop/urlEncrypt/src/main/java/com/nbk/ImageController.java:[89,16] variable decryptedCif is already defined in method getImage(java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[[1;31mERROR[m] /home/mostafasallam/Desktop/urlEncrypt/src/main/java/com/nbk/ImageController.java:[90,16] variable decryptedUserId is already defined in method getImage(java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[[1;31mERROR[m] /home/mostafasallam/Desktop/urlEncrypt/src/main/java/com/nbk/ImageController.java:[91,16] variable decryptedTransId is already defined in method getImage(java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[[1;31mERROR[m] /home/mostafasallam/Desktop/urlEncrypt/src/main/java/com/nbk/ImageController.java:[92,17] variable isSuccess is already defined in method getImage(java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[[1;34mINFO[m] 5 errors 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.642 s
+[[1;34mINFO[m] Finished at: 2026-02-03T00:26:17+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m on project [36murlEncrypt[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /home/mostafasallam/Desktop/urlEncrypt/src/main/java/com/nbk/ImageController.java:[88,16] variable clientIp is already defined in method getImage(java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[[1;31mERROR[m] /home/mostafasallam/Desktop/urlEncrypt/src/main/java/com/nbk/ImageController.java:[89,16] variable decryptedCif is already defined in method getImage(java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[[1;31mERROR[m] /home/mostafasallam/Desktop/urlEncrypt/src/main/java/com/nbk/ImageController.java:[90,16] variable decryptedUserId is already defined in method getImage(java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+[[1;31mERROR[m] /home/mostafasallam/Desktop/urlEncrypt/src/main/java/com/nbk/ImageCo2026-02-04 12:30:59 - o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x030x010xa60x010x000x010xa20x030x030xe860xd8> ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-02-04 12:31:02 - o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type String is not present]
